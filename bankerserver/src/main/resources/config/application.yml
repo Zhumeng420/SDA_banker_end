@@ -5,9 +5,9 @@ spring:
   # 数据源配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://121.4.102.94:3306/treehole?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    username: gxy
-    password: 123456
+    url: jdbc:mysql://43.143.213.47/banker?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 20020906txl
     hikari:
       # 连接池名
       pool-name: DateHikariCP

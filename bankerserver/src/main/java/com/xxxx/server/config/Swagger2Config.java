@@ -35,8 +35,8 @@ public class Swagger2Config {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
-                .title("树洞接口文档")
-                .description("树洞接口文档")
+                .title("SDA文档")
+                .description("SDA接口文档")
                 .contact(new Contact("xxxx","http:localhost:8081/doc.html","xxxx@xxxx.com"))
                 .version("1.0")
                 .build();
